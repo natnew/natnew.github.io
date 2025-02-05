@@ -22,11 +22,7 @@ AI is already transforming industries, but not every AI breakthrough is practica
 - **Responsible AI & governance** – Ensuring AI compliance and mitigating bias risks.  
 - **MLOps & AI scalability** – Moving from experimental AI models to full-scale enterprise deployment.  
 
-## The Hype vs. Reality  
 
-Not every AI advancement is a game-changer. We explore:  
-
-{{< table path="ai-hype-vs-reality.csv" header="true" caption="Table 1: AI Hype vs. Business Reality" >}}  
 
 ## What Businesses Should Focus On  
 
