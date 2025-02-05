@@ -3,11 +3,11 @@
 title: 吳健雄
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: Natasha Newbold
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Natasha
+last_name: Newbold
 
 # Status emoji
 status:
