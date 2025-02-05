@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: NatNew
 
 # Name pronunciation (optional)
 name_pronunciation: Natasha Newbold
@@ -17,15 +17,15 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Director of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
+  - name: University of Cambridge
     url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include distributed robotics, mobile computing, NLP, and programmable matter.
 
 # Social Networking
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -54,6 +54,6 @@ highlight_name: true
 website: ""
 ---
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include
-distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops
-self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Natasha Newbold is a Director of artificial intelligence at AI Lab. Her research interests include
+distributed robotics, mobile computing, NLP and programmable matter. She leads the Artificial Intelligence group, which develops
+self-reconfiguring robots, systems of self-organizing robots, generative AI, and mobile sensor networks.
