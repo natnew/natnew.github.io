@@ -1,43 +1,157 @@
 ---
-title: 🚀 Future of AI: Beyond the Hype – What Really Matters for Businesses
-summary: AI is evolving rapidly, but what really matters for businesses beyond the hype?
-date: 2025-02-05
+title: 📈 Communicate your results effectively with the best data visualizations
+summary: Use popular tools such as Plotly, Mermaid, and data frames.
+date: 2023-10-25
 authors:
   - admin
 tags:
-  - AI Strategy
-  - Machine Learning
-  - Business AI
+  - Hugo
+  - Hugo Blox
+  - Markdown
 image:
   caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
 ---
 
-AI is shifting from experimental technology to a mission-critical tool for businesses. But with all the hype around LLMs, generative AI, and automation, what **actually matters** for companies?  
+Hugo Blox is designed to give technical content creators a seamless experience. You can focus on the content and Hugo Blox handles the rest.
 
-## The Real Impact of AI  
+Use popular tools such as Plotly, Mermaid, and data frames.
 
-AI is already transforming industries, but not every AI breakthrough is practical for businesses. Key trends include:  
+## Charts
 
-- **AI-driven automation** – Reducing operational costs while improving efficiency.  
-- **Responsible AI & governance** – Ensuring AI compliance and mitigating bias risks.  
-- **MLOps & AI scalability** – Moving from experimental AI models to full-scale enterprise deployment.  
+Hugo Blox supports the popular [Plotly](https://plot.ly/) format for interactive data visualizations. With Plotly, you can design almost any kind of visualization you can imagine!
 
-## The Hype vs. Reality  
+Save your Plotly JSON in your page folder, for example `line-chart.json`, and then add the `{{</* chart data="line-chart" */>}}` shortcode where you would like the chart to appear.
 
-Not every AI advancement is a game-changer. We explore:  
+Demo:
 
-{{< table path="ai-hype-vs-reality.csv" header="true" caption="Table 1: AI Hype vs. Business Reality" >}}  
+{{< chart data="line-chart" >}}
 
-## What Businesses Should Focus On  
+You might also find the [Plotly JSON Editor](http://plotly-json-editor.getforge.io/) useful.
 
-To drive value, companies need to:  
+## Diagrams
 
-- Align AI with business objectives.  
-- Prioritise **MLOps and scalable AI architectures**.  
-- Implement AI governance and ethical frameworks.  
+Hugo Blox supports the _Mermaid_ Markdown extension for diagrams.
 
-## Final Thoughts  
+An example **flowchart**:
 
-AI is no longer just a buzzword—it's a competitive advantage. Businesses that leverage AI **strategically** will lead the future.  
+    ```mermaid
+    graph TD
+    A[Hard] -->|Text| B(Round)
+    B --> C{Decision}
+    C -->|One| D[Result 1]
+    C -->|Two| E[Result 2]
+    ```
 
-## Did you find this page helpful? Consider sharing it 🙌  
+renders as
+
+```mermaid
+graph TD
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
+
+An example **sequence diagram**:
+
+    ```mermaid
+    sequenceDiagram
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+    ```
+
+renders as
+
+```mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop Healthcheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
+
+An example **class diagram**:
+
+    ```mermaid
+    classDiagram
+    Class01 <|-- AveryLongClass : Cool
+    Class03 *-- Class04
+    Class05 o-- Class06
+    Class07 .. Class08
+    Class09 --> C2 : Where am i?
+    Class09 --* C3
+    Class09 --|> Class07
+    Class07 : equals()
+    Class07 : Object[] elementData
+    Class01 : size()
+    Class01 : int chimp
+    Class01 : int gorilla
+    Class08 <--> C2: Cool label
+    ```
+
+renders as
+
+```mermaid
+classDiagram
+Class01 <|-- AveryLongClass : Cool
+Class03 *-- Class04
+Class05 o-- Class06
+Class07 .. Class08
+Class09 --> C2 : Where am i?
+Class09 --* C3
+Class09 --|> Class07
+Class07 : equals()
+Class07 : Object[] elementData
+Class01 : size()
+Class01 : int chimp
+Class01 : int gorilla
+Class08 <--> C2: Cool label
+```
+
+An example **state diagram**:
+
+    ```mermaid
+    stateDiagram
+    [*] --> Still
+    Still --> [*]
+    Still --> Moving
+    Moving --> Still
+    Moving --> Crash
+    Crash --> [*]
+    ```
+
+renders as
+
+```mermaid
+stateDiagram
+[*] --> Still
+Still --> [*]
+Still --> Moving
+Moving --> Still
+Moving --> Crash
+Crash --> [*]
+```
+
+## Data Frames
+
+Save your spreadsheet as a CSV file in your page's folder and then render it by adding the _Table_ shortcode to your page:
+
+```go
+{{</* table path="results.csv" header="true" caption="Table 1: My results" */>}}
+```
+
+renders as
+
+{{< table path="results.csv" header="true" caption="Table 1: My results" >}}
+
+## Did you find this page helpful? Consider sharing it 🙌
