@@ -1,7 +1,7 @@
 ---
 title: "🏗️ How to Build and Scale an AI Team: Lessons from My Experience"
 summary: "Hiring, structuring, and scaling an AI team for maximum business impact."
-date: 2025-02-01
+date: 2025-02-02
 authors:
   - admin
 tags:

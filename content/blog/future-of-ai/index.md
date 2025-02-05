@@ -61,12 +61,4 @@ AI is no longer just a buzzword—it's a competitive advantage. Businesses that 
 
 ## Did you find this page helpful? Consider sharing it 🙌  
 
-```markmap {height="200px"}
-- Hugo Modules
-  - Hugo Blox
-  - blox-plugins-netlify
-  - blox-plugins-netlify-cms
-  - blox-plugins-reveal
-```
-
 
